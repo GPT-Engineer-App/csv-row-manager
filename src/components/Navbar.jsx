@@ -7,6 +7,11 @@ const Navbar = () => {
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Box>CSV Editor</Box>
         <Flex alignItems="center">
+          <RouterLink to="/about">
+            <Button as={Link} colorScheme="teal" variant="ghost">
+              About Us
+            </Button>
+          </RouterLink>
           <RouterLink to="/">
             <Button as={Link} colorScheme="teal" variant="ghost">
               Home
