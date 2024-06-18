@@ -5,10 +5,10 @@ import Index from "./pages/Index.jsx";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route exact path="/" element={<Index />} />
       </Routes>
+      <Navbar />
     </Router>
   );
 }
